@@ -1,26 +1,12 @@
 {
-  "name": "nisacad",
+  "name": "login",
   "version": "0.0.1",
-  "private": true,
-  "description": "a test of nodejs",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.15.2",
-    "mysql": "^2.13.0"
-  },
-  "devDependencies": {},
-  "scripts": {
+  "description": "",
+  "main": "app.js",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
-  "author": "JohnsonYuan",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NcuMisAcad/NcuMisAcad.git"
-  },
-  "bugs": {
-    "url": "https://github.com/NcuMisAcad/NcuMisAcad/issues"
-  },
-  "homepage": "https://github.com/NcuMisAcad/NcuMisAcad#readme"
+  "author": "",
+  "license": "ISC"
 }

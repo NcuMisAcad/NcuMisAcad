@@ -1,0 +1,92 @@
+#background img{
+	opacity: 0.3;
+	position: fixed;
+	left: 0;
+	top: 0%;
+	height: 100%;
+}
+
+#top_icon a{
+	position: absolute;
+	left: 8%;
+	top: 5%;
+	font-family: 'Noto Sans CJK TC Thin', 'Microsoft JhengHei';
+	font-size: 42px;
+	font-weight: 300;
+}
+
+#top_icon span{
+	font-size: 90px;
+}
+
+#top_photo img{
+	z-index: -20;
+	position: absolute;
+	margin-top: -15%;
+	margin-left: -8px;
+}
+
+#result {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 85%;
+	height: 65%;
+	font-family: 'Noto Sans CJK TC Light', 'Microsoft JhengHei';
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.students {
+	position: relative;
+	float: left;
+ 	width: 20%;
+  	height: 120px;
+ 	margin: 5px;
+ 	font-size: 20px;
+	background-color: #21454D;
+}
+
+#slider {
+	background-color: #000000;
+	opacity: 0.8;
+	top: 0;
+	left:-140px;
+	width:180px;
+	margin-left: -8px;	
+	position:fixed;
+	height: 100%
+}
+
+#icon_funcion {
+	top: 0%;
+	left: 0px;
+	position: absolute;	
+}
+
+#icon_function a{
+	position: relative;
+	text-decoration: none;
+	top: 0%;
+	left: 82%;
+	height: 80px;
+	width: 80px;
+}
+
+#icon_function img{
+	height: 30px;
+	width: 30px;
+}
+
+#logo_MIS{
+	font-size: 30px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: aqua;
+	text-align: right;
+}
+
+#icon_MIS{
+	font-size: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: aqua;
+}
