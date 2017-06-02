@@ -6,17 +6,18 @@
 	height: 100%;
 }
 
-#top_icon a{
+#title p{
+	font-size: 70px;
 	position: absolute;
+	z-index: 0;
 	left: 8%;
-	top: 5%;
+	top: -5%;
+	color: #061C46;
 	font-family: 'Noto Sans CJK TC Thin', 'Microsoft JhengHei';
-	font-size: 42px;
-	font-weight: 300;
 }
 
-#top_icon span{
-	font-size: 90px;
+#title span{
+	font-size: 30%;
 }
 
 #top_photo img{
@@ -40,7 +41,7 @@
 .students {
 	position: relative;
 	float: left;
- 	width: 20%;
+ 	width: 23%;
   	height: 120px;
  	margin: 5px;
  	font-size: 20px;
