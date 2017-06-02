@@ -2,86 +2,90 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title><%= title %></title>
-  <link href="/stylesheets/drawingcss.css" rel="stylesheet">
-  <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
-  <script type='text/javascript' src='./javascripts/slider.js'></script>
+  <title>直屬查詢 | 中央資管學術部</title>
+  <link href="stylesheets/drawingcss.css" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="./javascripts/slider.js"></script>
+  <script type="text/javascript" src="./javascripts/confirm.js"></script>
 </head>
+
 <body>
   <div id="background">
-  <img src="./images/background.jpg" height="100%" width="100%">
-</div>
-<div id="top_photo">
+    <img src="images/background.jpg" height="100%" width="100%">
+  </div>
+  <div id="top_photo">
     <img src="./images/power-of-words.png" width="100%" >
-    </div>
-<div id="top_icon">
-  <a>
-    <span>直屬 | </span>查詢系統
-  </a>
-</div>
-<div id="confirm_option">
-  <div id="confirm_option_1">
-    求個正妹學姊!!<br>
-    (ノﾟдﾟ)ノ
   </div>
-  <div id="confirm_option_2">
-    我就負責鮮肉學弟吧<3<br>
-    (*´∀`)~♥
+  <div id="bottom">
   </div>
-  <div id="confirm_option_3">
-    我才不在乎呢<br>
-    帥...帥學長什麼的<br>
-    (*´艸`*)
+  <div id="title">
+    <p>直屬 | <span>查詢系統</span></p>
   </div>
-  <div id="confirm_option_4">
-    要求不多<br>
-    很正的學妹一個就好<br>
-    (ゝ∀･)
+  <div id="confirm_option">
+  <div class="confirm_option" id="confirm_option_1" onclick="confirm_function()">
+    <p class="confirm_text_top" id="confirm_text1">求個正妹學姊!!<br/>
+    (ノﾟдﾟ)ノ</p>
+  </div>
+  <div class="confirm_option" id="confirm_option_2" onclick="confirm_function()">
+    <p class="confirm_text_top" id="confirm_text2">我就負責鮮肉學弟吧<br/>(*´∀`)~♥</p>
+  </div>
+  <div class="confirm_option" id="confirm_option_3" onclick="confirm_function()">
+    <p class="confirm_text_bottom" id="confirm_text3">我才不在乎呢<br/>
+    帥...帥學長什麼的<br/>
+    (*´艸`*)</p>
+  </div>
+  <div class="confirm_option" id="confirm_option_4" onclick="confirm_function()">
+    <p class="confirm_text_bottom" id="confirm_text4">要求不多<br/>
+    很正的學妹一個就好<br/>
+    (ゝ∀･)</p>
   </div>
   <div id="search_function">
     <div id="search_logo">
-      <span>直屬 | </span>查詢系統
+      <p><span>直屬 | </span>查詢系統</p>
     </div>
-    <form method="POST" action="/result">
-      <div id="studentid">
-        <span>學號 </span> Student ID |  <input type="text" name="id" maxlength="9" required="" autofocus="">
+    <form method="POST" action="\result">
+      <div class="id_and_name" id="studentid">
+        <p><span>學號 </span> Student ID | </p>
+        <input class="search_input" type="text" name="id" maxlength="9" required="" autofocus placeholder=" Student ID">
       </div>
-      <div id="namesearch">
-        <span>姓名 </span> Name |  <input type="text" name="name" required="">
+      <div class="id_and_name" id="namesearch">
+        <p><span>姓名 </span> Name |  </p>
+        <input class="search_input" type="text" name="name" required="" placeholder=" Name">
       </div>
       <div id="submit">
-        <input type="submit" value="送出" name="submit">
+        <input type="submit" value="送出" name="submit" disabled="">
       </div>
     </form>
+  </div> 
   </div>
-</div>
-<div id="slider">
-    <div id="icon_function">
+  <div id="slider">
+  </div> 
+  <div id="icon_function">
     <a id="logo_MIS">
-    M<br><br>
+      <img src="images/misacad.svg"><br/>
     </a>
     <a id="icon_search">
-      <img src="./images/05.png"><br/>
+      <img src="images/search.svg"><br/>
     </a>
     <a id="icon_speech">
-      <img src="./images/03.png"><br/>
+      <img src="images/speech.svg"><br/>
     </a>
     <a id="icon_enroll">
-      <img src="./images/06.png"><br/>
+      <img src="images/enroll.svg"><br/>
     </a>
       <a id="icon_drawLots">
-        <img src="./images/01.png"><br/>
+        <img src="images/drawLots.svg"><br/>
       </a>
       <a id="icon_contactUs" href="http://misacad-166416.appspot.com/03.html" target="_blank">
-        <img src="./images/02.png"><br/>
+        <img src="images/contactUs.svg"><br/>
       </a>
       <a id="icon_NCU" href="http://www.ncu.edu.tw/">
-        <img src="./images/04.png"><br/>
+        <img src="images/NCU-Logo.svg"><br/>
       </a>
     <a id="icon_MIS" href="http://im.mgt.ncu.edu.tw/index/main.php">
-      <p>MIS</p><br/>
+      <img src="images/MIS.svg"><br/>
     </a>  
   </div>
-</div> 
+
 </body>
 </html>
